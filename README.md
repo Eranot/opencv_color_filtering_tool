@@ -26,20 +26,19 @@ git clone https://github.com/Eranot/opencv_color_filtering_tool.git
 Execute the script for a image:
 
 ```bash
-python3 opencv_color_filtering_tool.py -f [imagem_file]
+python3 opencv_color_filtering_tool.py -f [image_file]
 ```
-
 
 Execute the script for a video:
 
 ```bash
-python3 opencv_color_filtering_tool.py -f [imagem_file] --video
+python3 opencv_color_filtering_tool.py -f [video_file] --video
 ```
 
-The parameter -r can be used to resize the image/video where 0.5 makes it half the size and 2.0 double it.
+The parameter -r can be used to resize the image/video where 0.5 makes it half the size and 2.0 doubles it
 
 ```bash
-python3 opencv_color_filtering_tool.py -f [imagem_file] --video -r 0.5
+python3 opencv_color_filtering_tool.py -f [video_file] --video -r 0.5
 ```
 
 The parameter --help can be used to get more information
