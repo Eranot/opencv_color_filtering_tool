@@ -8,12 +8,16 @@ A tool to easily find lower and upper bounds to color filtering in RGB, HSL and 
 
 Make sure you have OpenCV and Numpy
 
-```sudo pip3 install opencv-python
-sudo pip3 install numpy```
+```bash
+sudo pip3 install opencv-python
+sudo pip3 install numpy
+```
 
 Clone this project
 
-```git clone https://github.com/Eranot/opencv_color_filtering_tool.git```
+```bash
+git clone https://github.com/Eranot/opencv_color_filtering_tool.git
+```
 
 (or download it as zip)
 
@@ -21,17 +25,25 @@ Clone this project
 
 Execute the script for a image:
 
-```python3 opencv_color_filtering_tool.py -f [imagem_file]```
+```bash
+python3 opencv_color_filtering_tool.py -f [imagem_file]
+```
 
 
 Execute the script for a video:
 
-```python3 opencv_color_filtering_tool.py -f [imagem_file] --video```
+```bash
+python3 opencv_color_filtering_tool.py -f [imagem_file] --video
+```
 
 The parameter -r can be used to resize the image/video where 0.5 makes it half the size and 2.0 double it.
 
-```python3 opencv_color_filtering_tool.py -f [imagem_file] --video -r 0.5```
+```bash
+python3 opencv_color_filtering_tool.py -f [imagem_file] --video -r 0.5
+```
 
 The parameter --help can be used to get more information
 
-```python3 opencv_color_filtering_tool.py --help```
+```bash
+python3 opencv_color_filtering_tool.py --help
+```
